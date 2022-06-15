@@ -20,8 +20,9 @@ Create a simple deposit calculator php page that shows the result of calculation
 ## Objectives
 1. Form processing - **GET** and **POST**
 2. Read form data - in the receiving PHP page, the values of the input data on the web form can be extracted using `extract($_POST)` - which automatically creates variables from the array, with the key as name and the value as variable content.
-3. Form validation - self-submitting `$_SERVER[PHP_SELF]`, `isset()`, regular expression
-4. PHP function
+3. Form validation - submit form to the same page itself using `$_SERVER[PHP_SELF]`
+4. Form validation - `isset()`, regular expression
+5. PHP function
 
 ## Features
 ### 1. Deposit form
